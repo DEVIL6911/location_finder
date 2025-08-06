@@ -1,2 +1,2 @@
 # location_finder
-phoneno to location traker application
+phoneno to location tracking application
