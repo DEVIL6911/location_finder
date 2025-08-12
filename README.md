@@ -30,6 +30,47 @@ This application validates phone numbers, detects their location & carrier detai
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/phone-number-tracker.git
+   git clone  https://github.com/DEVIL6911/location_finder.git
    cd phone-number-tracker
+
+Create Virtual Environment (Optional but recommended)
+
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate  # On Mac/Linux
+venv\Scripts\activate     # On Windows
+Install Dependencies
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Get Your OpenCage API Key
+
+Visit opencagedata.com
+
+Sign up for a free account
+
+Get your API key
+
+▶ Usage
+Run the Streamlit app:
+
+bash
+Copy
+Edit
+streamlit run app.py
+Enter your OpenCage API Key in the sidebar.
+
+Enter the phone number with country code
+Example: +1234567890 or +911234567890
+
+Click Track Location to:
+
+View details in a clean dashboard
+
+See the location on an interactive map
+
 
