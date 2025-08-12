@@ -1,1 +1,8 @@
+pip install streamlit
+pip install pandas
+pip install phonenumbers  # for jupyter use ! before pip or another package installer you use EX: uv,pip,scoop
+pip install folium
+pip install opencage 
 
+
+#
